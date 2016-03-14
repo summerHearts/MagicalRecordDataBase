@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2361B0FE1C9571CD00A27F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361B0FD1C9571CD00A27F01 /* main.m */; };
+		2361B1011C9571CD00A27F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361B1001C9571CD00A27F01 /* AppDelegate.m */; };
+		2361B1041C9571CD00A27F01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361B1031C9571CD00A27F01 /* ViewController.m */; };
+		2361B1071C9571CD00A27F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2361B1051C9571CD00A27F01 /* Main.storyboard */; };
+		2361B1091C9571CD00A27F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2361B1081C9571CD00A27F01 /* Assets.xcassets */; };
+		2361B10C1C9571CD00A27F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2361B10A1C9571CD00A27F01 /* LaunchScreen.storyboard */; };
+		2361B1151C95738200A27F01 /* Person.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2361B1131C95738200A27F01 /* Person.xcdatamodeld */; };
+		2361B1211C957D2800A27F01 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361B11E1C957D2800A27F01 /* Person.m */; };
+		2361B1221C957D2800A27F01 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361B1201C957D2800A27F01 /* Person+CoreDataProperties.m */; };
+		712C294169D86BD5595FDEF3 /* Pods_MagicalRecordDataBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6020F28A5227C9A866BB17E7 /* Pods_MagicalRecordDataBase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2361B0F91C9571CD00A27F01 /* MagicalRecordDataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordDataBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2361B0FD1C9571CD00A27F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2361B0FF1C9571CD00A27F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2361B1001C9571CD00A27F01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2361B1021C9571CD00A27F01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2361B1031C9571CD00A27F01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2361B1061C9571CD00A27F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2361B1081C9571CD00A27F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2361B10B1C9571CD00A27F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2361B10D1C9571CD00A27F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2361B1141C95738200A27F01 /* Person.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Person.xcdatamodel; sourceTree = "<group>"; };
+		2361B11D1C957D2800A27F01 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2361B11E1C957D2800A27F01 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2361B11F1C957D2800A27F01 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2361B1201C957D2800A27F01 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		5A2CC0E4BF26C5C6F9AC7036 /* Pods-MagicalRecordDataBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDataBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecordDataBase/Pods-MagicalRecordDataBase.debug.xcconfig"; sourceTree = "<group>"; };
+		6020F28A5227C9A866BB17E7 /* Pods_MagicalRecordDataBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalRecordDataBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F35B1B6E7661E0E153EF051 /* Pods-MagicalRecordDataBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDataBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecordDataBase/Pods-MagicalRecordDataBase.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2361B0F61C9571CD00A27F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712C294169D86BD5595FDEF3 /* Pods_MagicalRecordDataBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2361B0F01C9571CD00A27F01 = {
+			isa = PBXGroup;
+			children = (
+				2361B0FB1C9571CD00A27F01 /* MagicalRecordDataBase */,
+				2361B0FA1C9571CD00A27F01 /* Products */,
+				8DB381233C6E7692339A7A00 /* Pods */,
+				C0550112C3EC1F994D94A0C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2361B0FA1C9571CD00A27F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2361B0F91C9571CD00A27F01 /* MagicalRecordDataBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2361B0FB1C9571CD00A27F01 /* MagicalRecordDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				2361B11C1C957D0900A27F01 /* Model */,
+				2361B0FF1C9571CD00A27F01 /* AppDelegate.h */,
+				2361B1001C9571CD00A27F01 /* AppDelegate.m */,
+				2361B1021C9571CD00A27F01 /* ViewController.h */,
+				2361B1031C9571CD00A27F01 /* ViewController.m */,
+				2361B1131C95738200A27F01 /* Person.xcdatamodeld */,
+				2361B1051C9571CD00A27F01 /* Main.storyboard */,
+				2361B1081C9571CD00A27F01 /* Assets.xcassets */,
+				2361B10A1C9571CD00A27F01 /* LaunchScreen.storyboard */,
+				2361B10D1C9571CD00A27F01 /* Info.plist */,
+				2361B0FC1C9571CD00A27F01 /* Supporting Files */,
+			);
+			path = MagicalRecordDataBase;
+			sourceTree = "<group>";
+		};
+		2361B0FC1C9571CD00A27F01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2361B0FD1C9571CD00A27F01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2361B11C1C957D0900A27F01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2361B11D1C957D2800A27F01 /* Person.h */,
+				2361B11E1C957D2800A27F01 /* Person.m */,
+				2361B11F1C957D2800A27F01 /* Person+CoreDataProperties.h */,
+				2361B1201C957D2800A27F01 /* Person+CoreDataProperties.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DB381233C6E7692339A7A00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CC0E4BF26C5C6F9AC7036 /* Pods-MagicalRecordDataBase.debug.xcconfig */,
+				7F35B1B6E7661E0E153EF051 /* Pods-MagicalRecordDataBase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0550112C3EC1F994D94A0C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6020F28A5227C9A866BB17E7 /* Pods_MagicalRecordDataBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2361B0F81C9571CD00A27F01 /* MagicalRecordDataBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2361B1101C9571CD00A27F01 /* Build configuration list for PBXNativeTarget "MagicalRecordDataBase" */;
+			buildPhases = (
+				FBB486BE6649401121AFD072 /* Check Pods Manifest.lock */,
+				2361B0F51C9571CD00A27F01 /* Sources */,
+				2361B0F61C9571CD00A27F01 /* Frameworks */,
+				2361B0F71C9571CD00A27F01 /* Resources */,
+				4A52672F1B71CD1F64428F49 /* Embed Pods Frameworks */,
+				4C0BEDA1D0AD454818A3157F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicalRecordDataBase;
+			productName = MagicalRecordDataBase;
+			productReference = 2361B0F91C9571CD00A27F01 /* MagicalRecordDataBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2361B0F11C9571CD00A27F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "上海乐住信息技术有限公司";
+				TargetAttributes = {
+					2361B0F81C9571CD00A27F01 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2361B0F41C9571CD00A27F01 /* Build configuration list for PBXProject "MagicalRecordDataBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2361B0F01C9571CD00A27F01;
+			productRefGroup = 2361B0FA1C9571CD00A27F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2361B0F81C9571CD00A27F01 /* MagicalRecordDataBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2361B0F71C9571CD00A27F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2361B10C1C9571CD00A27F01 /* LaunchScreen.storyboard in Resources */,
+				2361B1091C9571CD00A27F01 /* Assets.xcassets in Resources */,
+				2361B1071C9571CD00A27F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A52672F1B71CD1F64428F49 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicalRecordDataBase/Pods-MagicalRecordDataBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C0BEDA1D0AD454818A3157F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicalRecordDataBase/Pods-MagicalRecordDataBase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBB486BE6649401121AFD072 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2361B0F51C9571CD00A27F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2361B1041C9571CD00A27F01 /* ViewController.m in Sources */,
+				2361B1011C9571CD00A27F01 /* AppDelegate.m in Sources */,
+				2361B1211C957D2800A27F01 /* Person.m in Sources */,
+				2361B1151C95738200A27F01 /* Person.xcdatamodeld in Sources */,
+				2361B1221C957D2800A27F01 /* Person+CoreDataProperties.m in Sources */,
+				2361B0FE1C9571CD00A27F01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2361B1051C9571CD00A27F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2361B1061C9571CD00A27F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2361B10A1C9571CD00A27F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2361B10B1C9571CD00A27F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2361B10E1C9571CD00A27F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2361B10F1C9571CD00A27F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2361B1111C9571CD00A27F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2CC0E4BF26C5C6F9AC7036 /* Pods-MagicalRecordDataBase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicalRecordDataBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.MagicalRecordDataBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2361B1121C9571CD00A27F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F35B1B6E7661E0E153EF051 /* Pods-MagicalRecordDataBase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicalRecordDataBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lezhu.imike.MagicalRecordDataBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2361B0F41C9571CD00A27F01 /* Build configuration list for PBXProject "MagicalRecordDataBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2361B10E1C9571CD00A27F01 /* Debug */,
+				2361B10F1C9571CD00A27F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2361B1101C9571CD00A27F01 /* Build configuration list for PBXNativeTarget "MagicalRecordDataBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2361B1111C9571CD00A27F01 /* Debug */,
+				2361B1121C9571CD00A27F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2361B1131C95738200A27F01 /* Person.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2361B1141C95738200A27F01 /* Person.xcdatamodel */,
+			);
+			currentVersion = 2361B1141C95738200A27F01 /* Person.xcdatamodel */;
+			path = Person.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2361B0F11C9571CD00A27F01 /* Project object */;
+}
